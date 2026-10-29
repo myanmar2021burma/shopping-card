@@ -1,0 +1,33 @@
+.task{
+    background:white;
+    border-radius: 4px;
+    min-height: 5rem;
+    padding: 0.5rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor:move;
+}
+.bottomWrapper{
+    display:flex;
+    justify-content: space-between;
+}
+.status{
+    font-size: small;
+    background: var(--color-gray-light);
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+.ONGOING{
+    background:var(--color-ongoing);
+    
+}
+.DONE{
+    background: var(--color-done);
+}
+.task img{
+    height: 1.25rem;
+    cursor: pointer;
+}
